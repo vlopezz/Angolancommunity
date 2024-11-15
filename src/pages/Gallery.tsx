@@ -18,23 +18,23 @@ const Gallery: React.FC = () => {
     {
       title: "Community Events",
       description: "Celebrating our vibrant community through various cultural and social events",
-      coverImage: "public/img/img-community-3.jpg",
+      coverImage: "/img/img-community-3.jpg",
       images: [
-        'public/img/communidade1.jpg',
-        'public/img/comunidade2.jpg',
+        '/img/communidade1.jpg',
+        '/img/comunidade2.jpg',
         ''
       ]
     },
     {
       title: "Cultural Exchange",
       description: "Bridging cultures between Angola and Romania through meaningful interactions",
-      coverImage: "public/img/cover-culture.jpg",
+      coverImage: "/img/cover-culture.jpg",
       images: [
-        'public/img/cultural1.jpg',
-        'public/img/cultural2.jpg',
-        'public/img/cultural4.jpg',
-        'public/img/cultural5.jpg',
-        'public/img/cultural6.jpg'
+        '/img/cultural1.jpg',
+        '/img/cultural2.jpg',
+        '/img/cultural4.jpg',
+        '/img/cultural5.jpg',
+        '/img/cultural6.jpg'
       ]
     },
     {
@@ -42,11 +42,11 @@ const Gallery: React.FC = () => {
       description: "Capturing moments from academic life and student experiences in Romania",
       coverImage: "public/img/astropa.jpg",
       images: [
-        'public/img/astropas2.jpg',
-        'public/img/student.jpg',
-        'public/img/juca.jpg',
-        'public/img/astropas3.jpg',
-        'public/img/student-alex.jpg',
+        '/img/astropas2.jpg',
+        '/img/student.jpg',
+        '/img/juca.jpg',
+        '/img/astropas3.jpg',
+        '/img/student-alex.jpg',
       ]
     }
   ];
