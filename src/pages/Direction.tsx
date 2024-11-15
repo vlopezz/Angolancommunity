@@ -38,7 +38,7 @@ const Direction: React.FC = () => {
     {
       name: t('geovaneMoisesName'),
       role: t('geovaneMoisesRole'),
-      image: "/img/gious-direction.jpg",
+      image: "/img/geovane-direction.jpg",
       shortDescription: t('geovaneMoisesShortDesc'),
       fullDescription: t('geovaneMoisesFullDesc'),
       contact: {
