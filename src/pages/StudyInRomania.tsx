@@ -130,9 +130,9 @@ const StudyInRomania: React.FC = () => {
       {/* Image Grid */}
       <div className="grid grid-cols-4 gap-1 mt-16">
         <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80" alt={t('campusLifeAlt')} className="w-full h-48 object-cover" />
-        <img src="public/img/upb.jpg" alt={t('studentsAlt')} className="w-full h-48 object-cover" />
+        <img src="/img/upb.jpg" alt={t('studentsAlt')} className="w-full h-48 object-cover" />
         <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80" alt={t('libraryAlt')} className="w-full h-48 object-cover" />
-        <img src="public/img/upgpic.jpg" alt={t('studyGroupAlt')} className="w-full h-48 object-cover" />
+        <img src="/img/upgpic.jpg" alt={t('studyGroupAlt')} className="w-full h-48 object-cover" />
       </div>
     </div>
   );
