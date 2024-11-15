@@ -40,7 +40,7 @@ const Gallery: React.FC = () => {
     {
       title: "Student Life",
       description: "Capturing moments from academic life and student experiences in Romania",
-      coverImage: "public/img/astropa.jpg",
+      coverImage: "/img/astropa.jpg",
       images: [
         '/img/astropas2.jpg',
         '/img/student.jpg',
