@@ -62,7 +62,7 @@ const AboutRomania: React.FC = () => {
       caption: t('transfagarasanHighway')
     },
     {
-      url: 'public/img/peles-castle-sinaia-romania.jpg',
+      url: '/img/peles-castle-sinaia-romania.jpg',
       caption: t('pelesCastle')
     },
     {
@@ -81,7 +81,7 @@ const AboutRomania: React.FC = () => {
       <div className="relative h-[70vh] overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="public/img/Romania_party_member_apartments.jpg"
+            src="/img/Romania_party_member_apartments.jpg"
             alt={t('romaniaLandscapeAlt')}
             className="w-full h-full object-cover"
           />
