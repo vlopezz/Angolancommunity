@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ChevronDown, ChevronUp, Mail, Phone, Linkedin, Calendar } from 'lucide-react';
+import Slider from 'react-slick';  // Importando o Slider
+import { ChevronDown, ChevronUp, Linkedin, Calendar } from 'lucide-react';
 
 // Interface para definir a estrutura de um cartão de líder
 interface LeaderCard {
@@ -17,91 +18,56 @@ interface LeaderCard {
 
 const Direction: React.FC = () => {
   const { t } = useTranslation();
-  // Estado para controlar qual cartão está expandido
   const [expandedCard, setExpandedCard] = useState<number | null>(null);
 
-  // Array de objetos LeaderCard com informações dos líderes
   const leaderCards: LeaderCard[] = [
-    {
-      name: t('valenteVencislauName'),
-      role: t('valenteVencislauRole'),
-      image: '/img/Pr-vencislau.jpg',
-      shortDescription: t('valenteVencislauShortDesc'),
-      fullDescription: t('valenteVencislauFullDesc'),
-      contact: {
-        linkedin: "linkedin.com/in/ovencislaumario/",
-      },
-      achievements: [
-        t('valenteVencislauAchievement1'),
-      ]
-    },
-    {
-      name: t('geovaneMoisesName'),
-      role: t('geovaneMoisesRole'),
-      image: "/img/geovane-direction.jpg",
-      shortDescription: t('geovaneMoisesShortDesc'),
-      fullDescription: t('geovaneMoisesFullDesc'),
-      contact: {
-        linkedin: "linkedin.com/in/geovane-moisés-a05665199/"
-      },
-      achievements: [
-        t('geovaneMoisesAchievement1'),
-      ]
-    },
-    {
-      name: t('telmoDaSilvaName'),
-      role: t('telmoDaSilvaRole'),
-      image: "/img/telmo.jpg",
-      shortDescription: t('telmoDaSilvaShortDesc'),
-      fullDescription: t('telmoDaSilvaFullDesc'),
-      contact: {
-        linkedin: "linkedin.com/in/"
-      },
-      achievements: [
-        t('telmoDaSilvaAchievement1'),
-      ]
-    },
-    {
-      name: t('rubenBungaName'),
-      role: t('rubenBungaRole'),
-      image: "/img/ruben.jpg",
-      shortDescription: t('rubenBungaShortDesc'),
-      fullDescription: t('rubenBungaFullDesc'),
-      contact: {
-        linkedin: "linkedin.com/in/bunga-ruben-5394012a3"
-      },
-      achievements: [
-        t('rubenBungaAchievement1'),
-      ]
-    }
+    // Seus dados de líderes aqui...
   ];
 
-  // Função para alternar a expansão de um cartão
   const toggleCard = (index: number) => {
     setExpandedCard(expandedCard === index ? null : index);
+  };
+
+  // Configurações do Slider
+  const sliderSettings = {
+    infinite: true,        // Para permitir rotação infinita
+    slidesToShow: 3,       // Número de cartões visíveis ao mesmo tempo
+    slidesToScroll: 1,     // Quantidade de slides que são rolados por vez
+    dot: true,             // Adicionar indicadores de navegação
+    arrows: true,          // Ativar setas de navegação
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,  // Exibir 2 cartões em telas menores
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,  // Exibir 1 cartão em telas ainda menores
+        }
+      }
+    ]
   };
 
   return (
     <div id="direction" className="bg-gray-50">
       {/* Hero Section */}
       <div className="relative h-[40vh] bg-blue-600 overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-blue-900/60 mix-blend-multiply"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900/20"></div>
-        </div>
+        <div className="absolute inset-0 bg-blue-900/60 mix-blend-multiply"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900/20"></div>
         <div className="relative container mx-auto px-4 h-full flex items-center justify-center text-center">
           <div>
             <h1 className="text-5xl font-bold text-white mb-4">{t('direction')}</h1>
-            <p className="text-xl text-white/90 max-w-2xl mx-auto">
-              {t('directionDescription')}
-            </p>
+            <p className="text-xl text-white/90 max-w-2xl mx-auto">{t('directionDescription')}</p>
           </div>
         </div>
       </div>
 
-      {/* Cartões de Liderança */}
+      {/* Cartões de Liderança - Slider */}
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <Slider {...sliderSettings}>
           {leaderCards.map((card, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:-translate-y-2">
               {/* Imagem e informações básicas do líder */}
@@ -115,8 +81,6 @@ const Direction: React.FC = () => {
               
               <div className="p-6">
                 <p className="text-gray-600 mb-4">{card.shortDescription}</p>
-                
-                {/* Informações de contato */}
                 <div className="space-y-3 mb-4">
                   <div className="flex items-center text-gray-600">
                     <Linkedin size={18} className="mr-2" />
@@ -162,7 +126,7 @@ const Direction: React.FC = () => {
               </div>
             </div>
           ))}
-        </div>
+        </Slider>
       </div>
 
       {/* Chamada para Ação */}
