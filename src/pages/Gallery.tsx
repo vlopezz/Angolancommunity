@@ -48,6 +48,40 @@ const Gallery: React.FC = () => {
         '/img/astropas3.jpg',
         '/img/student-alex.jpg',
       ]
+    },
+
+    {
+      title: "World Portuguese Language Day",
+      description: "On 5 May, the Angolan Community in Romania took part in the commemorative event organised by the Embassies of Brazil and Portugal in Romania on 14 May 2024. ",
+      coverImage: "/img/p1.jpeg",
+      images: [
+        '/img/p1.jpeg',
+        '/img/p2.jpeg',
+        '/img/p3.jpeg',
+        '/img/p4.jpeg',
+        '/img/p5.jpeg',
+        '/img/p6.jpeg',
+        '/img/p7.jpeg',
+        '/img/p8.jpeg',
+        '/img/p9.jpeg',
+      ]
+    },
+
+    {
+      title: "World Portuguese Language Day",
+      description: "The Angolan Community in Romania had a distinguished presence at the World Portuguese Language Day celebrations, held in the city of Timisoara. ",
+      coverImage: "/img/photo02.jpeg",
+      images: [
+        '/img/photo01.jpeg',
+        '/img/photo02.jpeg',
+        '/img/photo03.jpeg',
+        '/img/photo04.jpeg',
+        '/img/photo05.jpeg',
+        '/img/photo06.jpeg',
+        '/img/photo07.jpeg',
+        '/img/photo08.jpeg',
+        '/img/photo09.jpeg',
+      ]
     }
   ];
 
