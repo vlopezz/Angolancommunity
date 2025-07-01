@@ -2,6 +2,8 @@
   "siteName": "Comunidade Angolana na Roménia",
   "community": "Comunidade",
   "direction": "Direção",
+  "resources": "Recursos",
+  "registration":"Inscrição",
   "aboutAngola": "Sobre Angola",
   "aboutRomania": "Sobre a Roménia",
   "studyInRomania": "Estude na Roménia",
@@ -167,5 +169,178 @@
   "pelesCastle": "Castelo de Peleș",
   "bucharestOldTown": "Centro Histórico de Bucareste",
   "paintedMonasteries": "Mosteiros Pintados",
-  "naturalBeautyContent": "A Roménia possui paisagens diversas, desde os Montes Cárpatos até à costa do Mar Negro. O país apresenta florestas pristinas, colinas ondulantes e a única biosfera do Delta do Danúbio."
+  "naturalBeautyContent": "A Roménia possui paisagens diversas, desde os Montes Cárpatos até à costa do Mar Negro. O país apresenta florestas pristinas, colinas ondulantes e a única biosfera do Delta do Danúbio.",
+  "vencislauMario": {
+    "name": "Vencislau Mario",
+    "role": "Presidente",
+    "shortDescription": "",
+    "fullDescription": "Presidente da Comunidade Angolana na Roménia desde setembro de 2023. Escola de verão em Diplomacia e Negociações no Instituto de Negociações Internacionais, Faculdade de Estudos Europeus, Roménia.",
+    "contact": {
+      "linkedin": "linkedin.com/in/ovencislaumario/"
+    },
+    "achievements": [
+      "Bacharelato em Diplomacia, Universidade Babes-Bolyai, Cluj-Napoca, Roménia",
+      "Escola de verão em Diplomacia e Negociações na Faculdade de Estudos Europeus UBB",
+      "Ex-Presidente da Associação de Estudantes Angolanos na Turquia (2019-2021)."
+    ]
+  },
+  "geovaneMoises": {
+    "name": "Geovane A. C. Moisés",
+    "role": "Porta-voz",
+    "shortDescription": "",
+    "fullDescription": "Porta-voz da Comunidade Angolana na Roménia e chefe do departamento de comunicação e imagem. Estudante de Engenharia Mecatrónica e Robótica na Universidade Politécnica de Bucareste.",
+    "contact": {
+      "linkedin": "linkedin.com/in/geovane-moisés-a05665199/"
+    },
+    "achievements": [
+      "Chefe do Departamento de Comunicação e Imagem, Comunidade Angolana na Roménia",
+      "Consultor Académico",
+      "Especialista em Bolsas de Estudo Internacionais",
+      "YouTuber",
+      "Designer",
+      "Empresário"
+    ]
+  },
+  "rubenBunga": {
+    "name": "Ruben Bunga",
+    "role": "Secretário de Finanças",
+    "shortDescription": "",
+    "fullDescription": "Licenciado pela Universidade de Petróleo e Gás, Faculdade de Economia, com especialização em finanças e banca. Mestre em gestão de sistemas bancários pela Universidade de Petróleo e Gás, Faculdade de Economia.",
+    "contact": {
+      "linkedin": "linkedin.com/in/bunga-ruben-5394012a3"
+    },
+    "achievements": [
+      "Mestre em economia pela Universidade de Economia do Porto-Portugal FEP.",
+      "Em breve"
+    ]
+  },
+  "telmoSilva": {
+    "name": "Telmo da Silva",
+    "role": "Secretário de Tecnologia",
+    "shortDescription": "",
+    "fullDescription": "Estudante de Engenharia da Computação na Universidade Politécnica de Bucareste, com grande interesse em desenvolvimento de sistemas, segurança cibernética e tecnologias emergentes. Focado no desenvolvimento de habilidades práticas.",
+    "contact": {
+      "linkedin": "#link"
+    },
+    "achievements": [
+      "Programador",
+      "Programador"
+    ]
+  },
+  "jorgeCaetano": {
+    "name": "Jorge Caetano",
+    "role": "Secretário de Esporte",
+    "shortDescription": "",
+    "fullDescription": "Estudante de Finanças e Bancos na Universidade de Petróleo e Gás de Ploieşti, com formação técnica em Contabilidade e Finanças. Habilidades em programação SQL, design de banco de dados e fundamentos de banco de dados.",
+    "contact": {
+      "linkedin": "#link"
+    },
+    "achievements": [
+      "Em breve",
+      "Em breve"
+    ]
+  },
+  "desiderioNgulo": {
+    "name": "Desidério Nungulo",
+    "role": "Secretário da Cultura",
+    "shortDescription": "",
+    "fullDescription": "Engenheiro mecânico, mestre em Bucareste, também é músico e artista de modelagem de origem angolana. Começou a fazer rap em 2007, em Luanda, durante uma competição escolar.",
+    "contact": {
+      "linkedin": "#link"
+    },
+    "achievements": [
+      "Na Romênia, aperfeiçoou e diversificou seu estilo, e hoje Nungulo também se dedica ao Afro-Trap, Kizomba, Guetto-Zouk e Kuduro (um estilo de música étnico-popular em Angola).",
+      "Ultimamente, tem colaborado com artistas internacionais, experimentando estilos novos e diferentes. Sua vibe certamente fará o público vibrar!"
+    ]
+  },
+"beatrizCoboNdua": {
+    "name": "Beatriz Cobo Ndua",
+    "role": "Secretária para Educação",
+    "shortDescription": "",
+    "fullDescription": "Formação: Engenharia Mecatrônica e Robótica pela Universidade Politécnica de Bucareste",
+    "contact": {
+      "linkedin": "#link"
+    },
+    "achievements": []
+  },
+  "benignaSambo": {
+    "name": "Benigna Sambo",
+    "role": "Secretária para Assuntos Sociais",
+    "shortDescription": "",
+    "fullDescription": "Licenciada em Contabilidade e Informática de Gestão na Universidade Petrol-Gaze de Ploiesti. Mestranda em Contabilidade, Fiscalidade e Auditoria na Universidade Petrol-Gaze de Ploiesti",
+    "contact": {
+      "linkedin": "#link"
+    },
+    "achievements": [
+      "Modelo profissional",
+      "Influencer e Marketing digital"
+    ]
+  },
+    "formTitle": "FORMULÁRIO CURSO",
+    "formSubtitle": "Formulário de Inscrição — Curso de Língua Romena para Lusófonos (1ª Edição)",
+    "formDescription": "Organizado pela Comunidade Angolana na Romênia",
+    "formPeriod": "Período de candidaturas: 01 a 20 de julho de 2025",
+    "formBenefits": "Curso 100% gratuito | Certificado de participação | Mentoria para bolsa de estudos",
+  
+    "section1Title": "Seção 1: Informações Pessoais",
+    "namePlaceholder": "Nome completo *",
+    "agePlaceholder": "Idade *",
+    "genderLabel": "Gênero",
+    "genderMasculino": "Masculino",
+    "genderFeminino": "Feminino",
+    "genderOutro": "Outro / Prefiro não dizer",
+    "countryPlaceholder": "País de origem *",
+    "emailPlaceholder": "E-mail *",
+    "whatsappPlaceholder": "Número de WhatsApp *",
+  
+    "section2Title": "Seção 2: Requisitos obrigatórios",
+    "ensinoMedioQuestion": "Você possui ensino médio concluído? *",
+    "ensinoMedioSim": "Sim",
+    "ensinoMedioNao": "Não",
+    "uploadCertLabel": "Envie o Certificado de Conclusão *",
+    "uploadCvLabel": "Envie seu Currículo (CV) *",
+  
+    "section3Title": "Seção 3: Conexão e ambiente para estudo",
+    "internetQuestion": "Você possui internet estável?",
+    "ambienteQuestion": "Você tem local tranquilo para estudar?",
+    "compromissoQuestion": "Você se compromete com o curso?",
+    "radioSim": "Sim",
+    "radioNao": "Não",
+  
+    "section4Title": "Seção 4: Motivação e experiência prévia",
+    "motivacaoPlaceholder": "Por que deseja participar deste curso? (máx. 200 caracteres)",
+    "experienciaPlaceholder": "Teve contato anterior com a língua romena? (máx. 200 caracteres)",
+  
+    "section5Title": "Seção 5: Declaração de veracidade",
+    "veracidadeLabel": "Declaro que todas as informações enviadas são verdadeiras e completas. Tenho ciência de que dados falsos ou incompatíveis resultarão na desqualificação imediata do processo seletivo. *",
+    "veracidadeSim": "Sim, declaro e aceito",
+    "veracidadeNao": "Não concordo",
+  
+    "submitButton": "Enviar Inscrição",
+    "loadingButton": "Enviando...",
+    "postSubmitNote": "Apenas os candidatos pré-selecionados receberão resposta via e-mail ou WhatsApp.",
+  
+    "errorCertificado": "Erro ao subir o certificado. Tente novamente.",
+    "errorCv": "Erro ao subir o currículo. Tente novamente.",
+    "errorCertUrl": "Não foi possível gerar o link do certificado.",
+    "errorCvUrl": "Não foi possível gerar o link do currículo.",
+    "submitError": "Erro ao enviar. Tente novamente.",
+    "submitSuccess": "Inscrição enviada com sucesso!",
+    "missingFilesAlert": "Por favor, envie tanto o certificado quanto o currículo.",
+    "resources.welcome1": "Bem-vindo aos Recursos da Comunidade! Acesse tutoriais e guias úteis.",
+  "resources.welcome2": "Fique atualizado com nossos destaques e documentos importantes.",
+  "resources.welcome3": "Explore links externos para mais informações relevantes.",
+
+  "resources.tabs.activities": "Atividades",
+  "resources.tabs.articles": "Artigos",
+
+  "resources.activities.title": "Curso de Língua Romena para Lusófonos",
+  "resources.activities.edition": "(1ª Edição)",
+  "resources.activities.button": "Acessar agora",
+
+  "resources.articles.title": "Artigos",
+  "resources.articles.subtitle": "Explore nossos artigos e documentos:",
+  "resources.articles.tutorial": "Tutorial em PDF",
+  "resources.articles.guide": "Guia Completo",
+  "resources.articles.link": "Link Externo"
 }

@@ -2,6 +2,8 @@
   "siteName": "Angolana Romania Community",
   "community": "Community",
   "direction": "Direction",
+  "resources": "Resources",
+  "registration":"registration",
   "aboutAngola": "About Angola",
   "aboutRomania": "About Romania",
   "studyInRomania": "Study in Romania",
@@ -159,5 +161,173 @@
   "exploreMore": "Explore More",
   "experienceAngola": "Experience Angola",
   "joinUsInExploring": "Join us in exploring this beautiful country and its rich cultural heritage",
-  "learnMore": "Learn More"
+  "learnMore": "Learn More", 
+ "vencislauMario": {
+"name": "Vencislau Mario",
+"role": "President",
+"shortDescription": "",
+"fullDescription": "President of the Angolan Community in Romania since September 2023. Summer School in Diplomacy and Negotiations at the Institute of International Negotiations, Faculty of European Studies, Romania.",
+"contact": {
+"linkedin": "linkedin.com/in/ovencislaumario/"
+},
+"achievements": [
+"Bachelor's Degree in Diplomacy, Babes-Bolyai University, Cluj-Napoca, Romania",
+"Summer School in Diplomacy and Negotiations at the Faculty of European Studies UBB",
+"Former President of the Angolan Students Association in Turkey (2019-2021)." ]
+},
+"geovaneMoises": {
+"name": "Geovane A. C. Moisés",
+"role": "Spokesperson",
+"shortDescription": "",
+"fullDescription": "Spokesperson for the Angolan Community in Romania and head of the department of communication and image. Student of Mechatronics and Robotics Engineering at the Polytechnic University of Bucharest.",
+"contact": {
+"linkedin": "linkedin.com/in/geovane-moisés-a05665199/"
+},
+"achievements": [
+"Head of the Department of Communication and Image, Angolan Community in Romania",
+"Academic Consultant",
+"Expert in International Scholarships",
+"YouTuber",
+"Designer",
+"Entrepreneur"
+]
+},
+"rubenBunga": {
+"name": "Ruben Bunga",
+"role": "Secretary of Finance",
+"shortDescription": "",
+"fullDescription": "Graduated from the University of Oil and Gas, Faculty of Economics, with specialization in finance and banking. Master in banking systems management from the University of Oil and Gas, Faculty of Economics.",
+"contact": {
+"linkedin": "linkedin.com/in/bunga-ruben-5394012a3"
+},
+"achievements": [
+"Master in Economics from the University of Economics of Porto-Portugal FEP.",
+"Coming soon"
+]
+},
+"telmoSilva": {
+"name": "Telmo da Silva",
+"role": "Secretary of Technology",
+"shortDescription": "",
+"fullDescription": "Computer Engineering student at the University of Bucharest Polytechnic, with a strong interest in systems development, cybersecurity and emerging technologies. Focused on developing practical skills.",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": [
+"Programmer",
+"Programmer"
+]
+},
+"jorgeCaetano": {
+"name": "Jorge Caetano",
+"role": "Secretary of Sports",
+"shortDescription": "",
+"fullDescription": "Student of Finance and Banking at the University of Oil and Gas Ploieşti, with a technical background in Accounting and Finance. Skills in SQL programming, database design and database fundamentals.",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": [
+"Coming soon",
+"Coming soon"
+]
+},
+"desiderioNgulo": {
+"name": "Desidério Nungulo",
+"role": "Secretary of Culture",
+"shortDescription": "",
+"fullDescription": "A mechanical engineer, with a master's degree in Bucharest, he is also a musician and modeling artist of Angolan origin. He started rapping in 2007, in Luanda, during a school competition.",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": [
+"In Romania, he perfected and diversified his style, and today Nungulo also dedicates himself to Afro-Trap, Kizomba, Guetto-Zouk and Kuduro (an ethnic-popular music style in Angola).",
+"Lately, he has collaborated with international artists, experimenting with new and different styles. His vibe will certainly make the audience vibrate!"
+]
+},
+"beatrizCoboNdua": {
+  "name": "Beatriz Cobo Ndua",
+"role": "Secretary for Education",
+"shortDescription": "",
+"fullDescription": "Education: Mechatronics and Robotics Engineering from the Polytechnic University of Bucharest",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": []
+},
+"benignaSambo": {
+"name": "Benigna Sambo",
+"role": "Secretary for Social Affairs",
+"shortDescription": "",
+"fullDescription": "Bachelor's degree in Accounting and Management Informatics from the Petrol-Gaze ​​University of Ploiesti. Master's degree in Accounting, Taxation and Auditing from the Petrol-Gaze ​​University of Ploiesti",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": [
+"Professional Model",
+"Influencer and Digital Marketing"
+]
+},
+"formTitle": "COURSE FORM",
+"formSubtitle": "Registration Form — Romanian Language Course for Portuguese Speakers (1st Edition)",
+"formDescription": "Organized by the Angolan Community in Romania",
+"formPeriod": "Application period: July 1-20, 2025",
+"formBenefits": "100% free course | Certificate of participation | Mentoring for scholarship",
+"section1Title": "Section 1: Personal Information",
+"namePlaceholder": "Full name *",
+"agePlaceholder": "Age *",
+"genderLabel": "Gender",
+"genderMasculino": "Male",
+"genderFeminino": "Female",
+"genderOutro": "Other / Prefer not to say",
+"countryPlaceholder": "Country of origin *",
+"emailPlaceholder": "Email *",
+"whatsappPlaceholder": "WhatsApp number *",
+
+"section2Title": "Section 2: Mandatory requirements",
+"ensinoMedioQuestion": "Have you completed high school? *",
+"ensinoMedioSim": "Yes",
+"ensinoMedioNao": "No",
+"uploadCertLabel": "Upload the Certificate of Completion *",
+"uploadCvLabel": "Upload your Resume (CV) *",
+
+"section3Title": "Section 3: Connection and study environment",
+"internetQuestion": "Do you have stable internet?",
+"ambienteQuestion": "Do you have a quiet place to study?",
+"compromissoQuestion": "Are you committed to the course?",
+"radioSim": "Yes",
+"radioNao": "No",
+
+"section4Title": "Section 4: Motivation and previous experience",
+"motivacaoPlaceholder": "Why do you want to participate in this course? (max. 200 characters)",
+"experienciaPlaceholder": "Have you had previous contact with the Romanian language? (max. 200 characters)",
+
+"section5Title": "Section 5: Declaration of truthfulness",
+"veracidadeLabel": "I declare that all information submitted is true and complete. I am aware that false or incompatible data will result in immediate disqualification from the selection process. *",
+"veracidadeSim": "Yes, I declare and accept",
+"veracidadeNao": "I do not agree",
+
+"submitButton": "Submit Application",
+"loadingButton": "Submitting...",
+"postSubmitNote": "Only pre-selected candidates will receive a response via email or WhatsApp.",
+
+"errorCertificado": "Error uploading certificate. Try again.",
+"errorCv": "Error uploading resume. Try again.",
+"errorCertUrl": "Unable to generate certificate link.",
+"errorCvUrl": "Unable to generate resume link.",
+"submitError": "Error submitting. Try again.",
+"submitSuccess": "Application submitted successfully!",
+"missingFilesAlert": "Please submit both certificate and resume.",
+"resources.welcome1": "Welcome to Community Resources! Access helpful tutorials and guides.",
+"resources.welcome2": "Stay up to date with our highlights and important documents.",
+"resources.welcome3": "Explore external links for more relevant information.",
+"resources.tabs.activities": "Activities",
+"resources.tabs.articles": "Articles",
+"resources.activities.title": "Romanian Language Course for Portuguese Speakers",
+"resources.activities.edition": "(1st Edition)",
+"resources.activities.button": "Access Now",
+"resources.articles.title": "Articles",
+"resources.articles.subtitle": "Explore our articles and documents:",
+"resources.articles.tutorial": "Tutorial on PDF",
+"resources.articles.guide": "Complete Guide",
+"resources.articles.link": "External Link"
 }

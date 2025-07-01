@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom'; 
 import LanguageSwitcher from './LanguageSwitcher';
 import MobileMenu from './MobileMenu';
 import { Menu } from 'lucide-react';
@@ -23,16 +24,32 @@ const Header: React.FC = () => {
   };
 
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      const headerOffset = 80;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
+    // Navega de volta para a página inicial antes de rolar
+    if (window.location.pathname !== '/') {
+      window.location.href = '/';
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }, 100); // Atraso para garantir que a navegação ocorra
+    } else {
+      const element = document.getElementById(id);
+      if (element) {
+        const headerOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
     }
   };
 
@@ -43,7 +60,6 @@ const Header: React.FC = () => {
           <div className={`flex justify-between items-center transition-all duration-300 ${isScrolled ? 'h-0 overflow-hidden' : 'h-24'}`}>
             <div className="flex items-center p-2 mr-2 mt-2 mb-2">
               <img src="/logo.jpg" alt="Logo" className="h-20 mr-4" />
-              
             </div>
             <div className="flex items-center">
               <LanguageSwitcher />
@@ -56,11 +72,9 @@ const Header: React.FC = () => {
               <li><a href="#about-angola" onClick={() => scrollToSection('about-angola')} className="hover:text-gray-600 transition-colors">{t('aboutAngola')}</a></li>
               <li><a href="#about-romania" onClick={() => scrollToSection('about-romania')} className="hover:text-gray-600 transition-colors">{t('aboutRomania')}</a></li>
               <li><a href="#study-in-romania" onClick={() => scrollToSection('study-in-romania')} className="hover:text-gray-600 transition-colors">{t('studyInRomania')}</a></li>
-              <li><a href="#partners" onClick={() => scrollToSection('partners')} className="hover:text-gray-600 transition-colors">{t
-              ('partners')}</a></li>
-              {/*<li><a href="#highlight" onClick={() => scrollToSection('highlight')} className="hover:text-gray-600 transition-colors">{t('highlight')}</a></li> */}
-              
+              <li><a href="#partners" onClick={() => scrollToSection('partners')} className="hover:text-gray-600 transition-colors">{t('partners')}</a></li>
               <li><a href="#gallery" onClick={() => scrollToSection('gallery')} className="hover:text-gray-600 transition-colors">{t('gallery')}</a></li>
+              <li><Link to="/resources" className="hover:text-gray-600 transition-colors">{t('resources')}</Link></li>
             </ul>
           </nav>
           <button
