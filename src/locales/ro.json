@@ -2,6 +2,8 @@
   "siteName": "Comunitatea Angolană din România",
   "community": "Comunitate",
   "direction": "Direcție",
+  "resources": "Resurse",
+  "registration":"Înregistrare",
   "aboutAngola": "Despre Angola",
   "aboutRomania": "Despre România",
   "studyInRomania": "Studii în România",
@@ -74,5 +76,173 @@
   "transfagarasanHighway": "Autostrada Transfăgărășan",
   "pelesCastle": "Castelul Peleș",
   "bucharestOldTown": "Centrul Vechi al Bucureștiului",
-  "paintedMonasteries": "Mănăstiri Pictate"
+  "paintedMonasteries": "Mănăstiri Pictate",
+  "vencislauMario": {
+"name": "Vencislau Mario",
+"role": "Președinte",
+"shortDescription": "",
+"fullDescription": "Președinte al Comunității Angoleze din România din septembrie 2023. Școală de Vară în Diplomație și Negocieri la Institutul de Negocieri Internaționale, Facultatea de Studii Europene, România.",
+"contact": {
+"linkedin": "linkedin.com/in/ovencislaumario/"
+},
+"achievements": [
+"Licență în Diplomație, Universitatea Babeș-Bolyai, Cluj-Napoca, România",
+"Școală de Vară în Diplomație și Negocieri la Facultatea de Studii Europene UBB",
+"Fost Președinte al Asociației Studenților Angolezi din Turcia (2019-2021)." ]
+},
+"geovaneMoises": {
+"name": "Geovane A. C. Moisés",
+"role": "Purtător de cuvânt",
+"shortDescription": "",
+"fullDescription": "Purtător de cuvânt al comunității angoleze din România și șeful departamentului de comunicare și imagine. Student la Inginerie Mecatronică și Robotică la Universitatea Politehnică din București.",
+"contact": {
+"linkedin": "linkedin.com/in/geovane-moisés-a05665199/"
+},
+"achievements": [
+"Șeful Departamentului de Comunicare și Imagine, Comunitatea Angoleză din România",
+"Consultant academic",
+"Expert în Burse Internaționale",
+"YouTuber",
+"Designer",
+"Antrepreneur"
+]
+},
+"rubenBunga": {
+"name": "Ruben Bunga",
+"role": "Secretar de Finanțe",
+"shortDescription": "",
+"fullDescription": "Absolvent al Universitatea de Petrol și Gaze, Facultatea de Economie, cu specializare în finanțe și bancar. Master în managementul sistemelor bancare de la Universitatea de Petrol și Gaze, Facultatea de Economie.",
+"contact": {
+"linkedin": "linkedin.com/in/bunga-ruben-5394012a3"
+},
+"achievements": [
+"Master în Economie de la Universitatea de Economie din Porto-Portugalia FEP.",
+"În curând"
+]
+},
+"telmoSilva": {
+"name": "Telmo da Silva",
+"role": "Secretar de Tehnologie",
+"shortDescription": "",
+"fullDescription": "Student la Inginerie Informatică la Universitatea Politehnică din București, cu un interes puternic pentru dezvoltarea de sisteme, securitate cibernetică și tehnologii emergente. Concentrat pe dezvoltarea abilităților practice.",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": [
+"Programator",
+"Programator"
+]
+},
+"jorgeCaetano": {
+"name": "Jorge Caetano",
+"role": "Secretar al Sportului",
+"shortDescription": "",
+"fullDescription": "Student la Finanțe și Bănci la Universitatea de Petrol și Gaze Ploiești, cu studii tehnice în Contabilitate și Finanțe. Abilități de programare SQL, proiectare baze de date și elemente fundamentale ale bazelor de date.",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": [
+"În curând",
+"În curând"
+]
+},
+"desiderioNgulo": {
+"name": "Desidério Nungulo",
+"role": "Secretar al Culturii",
+"shortDescription": "",
+"fullDescription": "Inginer mecanic, cu o diplomă de master la București, este, de asemenea, muzician și artist model de origine angoleză. A început să cânte rap în 2007, la Luanda, în timpul unei competiții școlare.",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": [
+"În România, și-a perfecționat și diversificat stilul, iar astăzi Nungulo se dedică, de asemenea, Afro-Trap, Kizomba, Guetto-Zouk și Kuduro (un stil muzical etnic-popular din Angola).",
+"În ultima vreme, a colaborat cu artiști internaționali, experimentând stiluri noi și diferite. Vibrațiile sale vor face cu siguranță publicul să vibreze!"
+]
+},
+"beatrizCoboNdua": {
+  "name": "Beatriz Cobo Ndua",
+"role": "Secretar pentru Educație",
+"shortDescription": "",
+"fullDescription": "Educație: Inginerie Mecatronică și Robotică de la Universitatea Politehnică din București",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": []
+},
+"benignaSambo": {
+"name": "Benigna Sambo",
+"role": "Secretar pentru Afaceri Sociale",
+"shortDescription": "",
+"fullDescription": "Licență în Contabilitate și Informatică de Gestiune de la Universitatea Petrol-Gaze ​​din Ploiești. Master în Contabilitate, Fiscalitate și Audit de la Universitatea Petrol-Gaze ​​din Ploiești",
+"contact": {
+"linkedin": "#link"
+},
+"achievements": [
+"Model Profesional",
+"Influencer și Marketing Digital"
+]
+},
+"formTitle": "FORMULAR DE CURS",
+"formSubtitle": "Formular de înscriere — Curs de limba română pentru vorbitori de portugheză (Ediția I)",
+"formDescription": "Organizat de Comunitatea Angoleză din România",
+"formPeriod": "Perioada de aplicare: 1-20 iulie 2025",
+"formBenefits": "Curs 100% gratuit | Certificat de participare | Mentorat pentru bursă",
+"section1Title": "Secțiunea 1: Informații personale",
+"namePlaceholder": "Nume complet *",
+"agePlaceholder": "Vârstă *",
+"genderLabel": "Gender",
+"genderMasculino": "Masculin",
+"genderFeminino": "Feminin",
+"genderOutro": "Altul / Prefer să nu spun",
+"countryPlaceholder": "Țara de origine *",
+"emailPlaceholder": "Email *",
+"whatsappPlaceholder": "Număr WhatsApp *",
+
+"section2Title": "Secțiunea 2: Cerințe obligatorii",
+"ensinoMedioQuestion": "Ați terminat liceul? *",
+"ensinoMedioSim": "Da",
+"ensinoMedioNao": "Nu",
+"uploadCertLabel": "Încărcați Certificatul de Absolvire *",
+"uploadCvLabel": "Încărcați CV-ul *",
+
+"section3Title": "Secțiunea 3: Conexiune și mediu de studiu",
+"internetQuestion": "Aveți internet stabil?",
+"ambienteQuestion": "Aveți un loc liniștit pentru a studia?",
+"compromissoQuestion": "Sunteți dedicat cursului?",
+"radioSim": "Da",
+"radioNao": "Nu",
+
+"section4Title": "Secțiunea 4: Motivație și experiență anterioară",
+"motivacaoPlaceholder": "De ce doriți să participați la acest curs? (max. 200 de caractere)",
+"experienciaPlaceholder": "Ați avut anterior... contact cu limba română? (max. 200 de caractere)",
+
+"section5Title": "Secțiunea 5: Declarație de veridicitate",
+"veracidadeLabel": "Declar că toate informațiile transmise sunt adevărate și complete. Sunt conștient că datele false sau incompatibile vor duce la descalificarea imediată din procesul de selecție. *",
+"veracidadeSim": "Da, declar și accept",
+"veracidadeNao": "Nu sunt de acord",
+
+"submitButton": "Trimite aplicația",
+"loadingButton": "Se trimite...",
+"postSubmitNote": "Doar candidații preselectați vor primi un răspuns prin e-mail sau WhatsApp.",
+
+"errorCertificado": "Eroare la încărcarea certificatului. Încercați din nou.",
+"errorCv": "Eroare la încărcarea CV-ului. Încercați din nou.",
+"errorCertUrl": "Nu se poate genera linkul către certificat.",
+"errorCvUrl": "Nu se poate genera linkul către CV.",
+"submitError": "Eroare la trimitere. Încercați din nou.",
+"submitSuccess": "Aplicație trimisă cu succes!",
+"missingFilesAlert": "Vă rugăm să trimiteți atât certificatul, cât și CV-ul.",
+"resources.welcome1": "Bun venit la Resurse Comunitare! Accesați tutoriale și ghiduri utile.",
+"resources.welcome2": "Rămâneți la curent cu principalele noastre informații și documente importante.",
+"resources.welcome3": "Explorați linkuri externe pentru mai multe informații relevante.",
+"resources.tabs.activities": "Activități",
+"resources.tabs.articles": "Articole",
+"resources.activities.title": "Curs de limba română pentru vorbitori de portugheză",
+"resources.activities.edition": "(Ediția 1)",
+"resources.activities.button": "Accesați acum",
+"resources.articles.title": "Articole",
+"resources.articles.subtitle": "Explorați articolele și documentele noastre:",
+"resources.articles.tutorial": "Tutorial în format PDF",
+"resources.articles.guide": "Ghid complet",
+"resources.articles.link": "Link extern"
 }
