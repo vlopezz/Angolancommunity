@@ -140,6 +140,23 @@ const Direction: React.FC = () => {
         t('benignaSambo.achievements.3'),
       ],
     },
+    {
+      name: "Francisco Pontes",
+      role: t('franciscoPontes.role'),
+      shortDescription: t('franciscoPontes.shortDescription'),
+      image: "/img/zenildo.jpeg",
+      fullDescription: t('franciscoPontes.fullDescription'),
+      contact: {
+        linkedin: t('franciscoPontes.contact.linkedin'),
+      },
+      achievements: [
+        t('franciscoPontes.achievements.0'),
+        t('franciscoPontes.achievements.1'),
+        t('franciscoPontes.achievements.2'),
+        t('franciscoPontes.achievements.3'),
+        t('franciscoPontes.achievements.4'),
+      ],
+    },    
   ];
 
   const toggleCard = (index: number) => {
