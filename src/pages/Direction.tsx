@@ -155,6 +155,7 @@ const Direction: React.FC = () => {
         t('franciscoPontes.achievements.2'),
         t('franciscoPontes.achievements.3'),
         t('franciscoPontes.achievements.4'),
+        t('franciscoPontes.achievements.5'),
       ],
     },    
   ];
