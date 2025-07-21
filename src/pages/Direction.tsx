@@ -97,6 +97,10 @@ const Direction: React.FC = () => {
       achievements: [
         t('jorgeCaetano.achievements.0'),
         t('jorgeCaetano.achievements.1'),
+        t('jorgeCaetano.achievements.2'),
+        t('jorgeCaetano.achievements.3'),
+        t('jorgeCaetano.achievements.4'),
+        t('jorgeCaetano.achievements.5'),
       ],
     },
     {
@@ -136,8 +140,6 @@ const Direction: React.FC = () => {
       achievements: [
         t('benignaSambo.achievements.0'),
         t('benignaSambo.achievements.1'),
-        t('benignaSambo.achievements.2'),
-        t('benignaSambo.achievements.3'),
       ],
     },
     {

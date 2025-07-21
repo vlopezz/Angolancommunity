@@ -76,6 +76,9 @@
   "transfagarasanHighway": "Autostrada Transfăgărășan",
   "pelesCastle": "Castelul Peleș",
   "bucharestOldTown": "Centrul Vechi al Bucureștiului",
+  "registrationsClosedTitle": "Înscrierile s-au încheiat.",
+  "registrationsClosedThanks": "Mulțumesc tuturor celor care au participat!",
+  "registrationsClosedNote": "Așteptați vești în curând.",
   "paintedMonasteries": "Mănăstiri Pictate",
   "vencislauMario": {
 "name": "Vencislau Mario",
@@ -139,11 +142,15 @@
 "shortDescription": "",
 "fullDescription": "Student la Finanțe și Bănci la Universitatea de Petrol și Gaze Ploiești, cu studii tehnice în Contabilitate și Finanțe. Abilități de programare SQL, proiectare baze de date și elemente fundamentale ale bazelor de date.",
 "contact": {
-"linkedin": "#link"
+"linkedin": "https://www.linkedin.com/in/jorge-tom%C3%A9-12b90027a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
 },
 "achievements": [
-"În curând",
-"În curând"
+"Google Analytics",
+"Google gestionează datele GA4 și învață să citești rapoartele.",
+"Google utilizează GA4 cu alte instrumente și surse de date.",
+"Google aprofundează datele și rapoartele GA4.",
+"Nivel de contabilitate financiară ||.",
+"Bazele calculatorului."
 ]
 },
 "desiderioNgulo": {

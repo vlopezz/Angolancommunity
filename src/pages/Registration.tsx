@@ -12,6 +12,8 @@ const Registration: React.FC = () => {
   const [cvFile, setCvFile] = useState<File | null>(null);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
 
+  const encerrado = true; // Altere para false se quiser reabrir o formulário
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -140,75 +142,86 @@ const Registration: React.FC = () => {
             </motion.div>
           </div>
         )}
+
+       {encerrado && (
+  <div className="bg-red-100 border border-red-400 text-red-700 px-6 py-4 rounded mb-8 shadow text-center max-w-3xl mx-auto">
+    <p className="text-xl font-semibold mb-1">🚫 {t('registrationsClosedTitle')}</p>
+    <p className="text-gray-700">{t('registrationsClosedThanks')}<br />{t('registrationsClosedNote')}</p>
+  </div>
+)}
+
+
         <form onSubmit={handleSubmit} className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 md:p-10">
-          <h1 className="text-3xl font-bold text-[#002868] mb-2">{t('formTitle')}</h1>
-          <p className="text-gray-700 mb-6">
-            📝 <strong>{t('formSubtitle')}</strong><br />
-            {t('formDescription')}<br />
-            🗓 {t('formPeriod')}<br />
-            💻 {t('formBenefits')}
-          </p>
+          <fieldset disabled={encerrado} className={encerrado ? 'opacity-50 pointer-events-none' : ''}>
+            <h1 className="text-3xl font-bold text-[#002868] mb-2">{t('formTitle')}</h1>
+            <p className="text-gray-700 mb-6">
+              📝 <strong>{t('formSubtitle')}</strong><br />
+              {t('formDescription')}<br />
+              🗓 {t('formPeriod')}<br />
+              💻 {t('formBenefits')}
+            </p>
 
-          <hr className="my-6" />
-          <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section1Title')}</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            <input required type="text" name="nome" placeholder={t('namePlaceholder')} className="border p-2 rounded w-full" />
-            <input required type="text" name="idade" placeholder={t('agePlaceholder')} className="border p-2 rounded w-full" />
-            <div className="col-span-2">
-              <label className="block mb-1">{t('genderLabel')}</label>
-              <div className="flex flex-wrap gap-4">
-                <label><input type="radio" name="genero" value="Masculino" className="mr-2" />{t('genderMasculino')}</label>
-                <label><input type="radio" name="genero" value="Feminino" className="mr-2" />{t('genderFeminino')}</label>
-                <label><input type="radio" name="genero" value="Outro" className="mr-2" />{t('genderOutro')}</label>
+            <hr className="my-6" />
+            <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section1Title')}</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              <input required type="text" name="nome" placeholder={t('namePlaceholder')} className="border p-2 rounded w-full" />
+              <input required type="text" name="idade" placeholder={t('agePlaceholder')} className="border p-2 rounded w-full" />
+              <div className="col-span-2">
+                <label className="block mb-1">{t('genderLabel')}</label>
+                <div className="flex flex-wrap gap-4">
+                  <label><input type="radio" name="genero" value="Masculino" className="mr-2" />{t('genderMasculino')}</label>
+                  <label><input type="radio" name="genero" value="Feminino" className="mr-2" />{t('genderFeminino')}</label>
+                  <label><input type="radio" name="genero" value="Outro" className="mr-2" />{t('genderOutro')}</label>
+                </div>
               </div>
+              <input required type="text" name="pais" placeholder={t('countryPlaceholder')} className="border p-2 rounded w-full" />
+              <input required type="email" name="email" placeholder={t('emailPlaceholder')} className="border p-2 rounded w-full" />
+              <input required type="text" name="whatsapp" placeholder={t('whatsappPlaceholder')} className="border p-2 rounded w-full" />
             </div>
-            <input required type="text" name="pais" placeholder={t('countryPlaceholder')} className="border p-2 rounded w-full" />
-            <input required type="email" name="email" placeholder={t('emailPlaceholder')} className="border p-2 rounded w-full" />
-            <input required type="text" name="whatsapp" placeholder={t('whatsappPlaceholder')} className="border p-2 rounded w-full" />
-          </div>
 
-          <hr className="my-6" />
-          <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section2Title')}</h2>
-          <label>{t('ensinoMedioQuestion')}</label>
-          <div className="flex gap-4 mb-4">
-            <label><input type="radio" name="medio" value="Sim" required className="mr-2" />{t('ensinoMedioSim')}</label>
-            <label><input type="radio" name="medio" value="Nao" required className="mr-2" />{t('ensinoMedioNao')}</label>
-          </div>
-          <label className="font-medium block">{t('uploadCertLabel')}</label>
-          <input required type="file" accept="application/pdf" onChange={e => setCertFile(e.target.files?.[0] || null)} className="border p-2 rounded w-full mb-4" />
-          <label className="font-medium block">{t('uploadCvLabel')}</label>
-          <input required type="file" accept="application/pdf" onChange={e => setCvFile(e.target.files?.[0] || null)} className="border p-2 rounded w-full" />
+            <hr className="my-6" />
+            <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section2Title')}</h2>
+            <label>{t('ensinoMedioQuestion')}</label>
+            <div className="flex gap-4 mb-4">
+              <label><input type="radio" name="medio" value="Sim" required className="mr-2" />{t('ensinoMedioSim')}</label>
+              <label><input type="radio" name="medio" value="Nao" required className="mr-2" />{t('ensinoMedioNao')}</label>
+            </div>
+            <label className="font-medium block">{t('uploadCertLabel')}</label>
+            <input required type="file" accept="application/pdf" onChange={e => setCertFile(e.target.files?.[0] || null)} className="border p-2 rounded w-full mb-4" />
+            <label className="font-medium block">{t('uploadCvLabel')}</label>
+            <input required type="file" accept="application/pdf" onChange={e => setCvFile(e.target.files?.[0] || null)} className="border p-2 rounded w-full" />
 
-          <hr className="my-6" />
-          <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section3Title')}</h2>
-          {[t('internetQuestion'), t('ambienteQuestion'), t('compromissoQuestion')].map((question, i) => (
-            <div className="mb-4" key={i}>
-              <label>{question}</label>
-              <div className="flex gap-4">
-                <label><input type="radio" name={`sec3-${i}`} value="Sim" required className="mr-2" />{t('radioSim')}</label>
-                <label><input type="radio" name={`sec3-${i}`} value="Nao" required className="mr-2" />{t('radioNao')}</label>
+            <hr className="my-6" />
+            <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section3Title')}</h2>
+            {[t('internetQuestion'), t('ambienteQuestion'), t('compromissoQuestion')].map((question, i) => (
+              <div className="mb-4" key={i}>
+                <label>{question}</label>
+                <div className="flex gap-4">
+                  <label><input type="radio" name={`sec3-${i}`} value="Sim" required className="mr-2" />{t('radioSim')}</label>
+                  <label><input type="radio" name={`sec3-${i}`} value="Nao" required className="mr-2" />{t('radioNao')}</label>
+                </div>
               </div>
+            ))}
+
+            <hr className="my-6" />
+            <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section4Title')}</h2>
+            <textarea name="motivacao" placeholder={t('motivacaoPlaceholder')} maxLength={200} className="border p-2 rounded w-full h-28 mb-4" />
+            <textarea name="experiencia" placeholder={t('experienciaPlaceholder')} maxLength={200} className="border p-2 rounded w-full h-28" />
+
+            <hr className="my-6" />
+            <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section5Title')}</h2>
+            <label className="block mb-2">{t('veracidadeLabel')}</label>
+            <div className="flex gap-4 mb-6">
+              <label><input type="radio" name="veracidade" value="Sim" required className="mr-2" />{t('veracidadeSim')}</label>
+              <label><input type="radio" name="veracidade" value="Nao" required className="mr-2" />{t('veracidadeNao')}</label>
             </div>
-          ))}
 
-          <hr className="my-6" />
-          <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section4Title')}</h2>
-          <textarea name="motivacao" placeholder={t('motivacaoPlaceholder')} maxLength={200} className="border p-2 rounded w-full h-28 mb-4" />
-          <textarea name="experiencia" placeholder={t('experienciaPlaceholder')} maxLength={200} className="border p-2 rounded w-full h-28" />
+            <button type="submit" disabled={loading} className="bg-[#002868] text-white px-6 py-2 rounded hover:bg-[#004080] w-full sm:w-auto">
+              {loading ? t('loadingButton') : t('submitButton')}
+            </button>
 
-          <hr className="my-6" />
-          <h2 className="text-xl font-semibold text-[#002868] mb-4">{t('section5Title')}</h2>
-          <label className="block mb-2">{t('veracidadeLabel')}</label>
-          <div className="flex gap-4 mb-6">
-            <label><input type="radio" name="veracidade" value="Sim" required className="mr-2" />{t('veracidadeSim')}</label>
-            <label><input type="radio" name="veracidade" value="Nao" required className="mr-2" />{t('veracidadeNao')}</label>
-          </div>
-
-          <button type="submit" disabled={loading} className="bg-[#002868] text-white px-6 py-2 rounded hover:bg-[#004080] w-full sm:w-auto">
-            {loading ? t('loadingButton') : t('submitButton')}
-          </button>
-
-          <p className="text-sm text-gray-600 mt-4">{t('postSubmitNote')}</p>
+            <p className="text-sm text-gray-600 mt-4">{t('postSubmitNote')}</p>
+          </fieldset>
         </form>
       </main>
     </div>

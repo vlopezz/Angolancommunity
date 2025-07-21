@@ -169,6 +169,9 @@
   "pelesCastle": "Castelo de Peleș",
   "bucharestOldTown": "Centro Histórico de Bucareste",
   "paintedMonasteries": "Mosteiros Pintados",
+  "registrationsClosedTitle": "As inscrições foram encerradas.",
+  "registrationsClosedThanks": "Obrigado a todos que participaram!",
+  "registrationsClosedNote": "Aguardem novidades em breve.",
   "naturalBeautyContent": "A Roménia possui paisagens diversas, desde os Montes Cárpatos até à costa do Mar Negro. O país apresenta florestas pristinas, colinas ondulantes e a única biosfera do Delta do Danúbio.",
   "vencislauMario": {
     "name": "Vencislau Mario",
@@ -233,11 +236,15 @@
     "shortDescription": "",
     "fullDescription": "Estudante de Finanças e Bancos na Universidade de Petróleo e Gás de Ploieşti, com formação técnica em Contabilidade e Finanças. Habilidades em programação SQL, design de banco de dados e fundamentos de banco de dados.",
     "contact": {
-      "linkedin": "#link"
+      "linkedin": "https://www.linkedin.com/in/jorge-tom%C3%A9-12b90027a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     "achievements": [
-      "Em breve",
-      "Em breve"
+      "Google Analytics",
+      "google manage GA4 data and Learn to Read Reports.",
+      "Google Use GA4 with other Tools and Data Sources.",
+      "Google Dive Deeper into GA4 Data and Reports.",
+      "Contabilidade financeira nível || .",
+      "Informática básica."
     ]
   },
   "desiderioNgulo": {

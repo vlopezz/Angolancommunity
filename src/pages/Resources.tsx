@@ -9,6 +9,8 @@ const Resources: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [activeSection, setActiveSection] = useState<'atividades' | 'artigos'>('atividades');
 
+  const encerrado = true; // Mude para false se quiser reativar o acesso ao curso
+
   const slides = [
     t('resources.welcome1'),
     t('resources.welcome2'),
@@ -107,12 +109,21 @@ const Resources: React.FC = () => {
                   <p className="text-sm sm:text-base text-center mt-2">{t('resources.activities.edition')}</p>
                 </div>
 
-                <Link to="/registration"
-                  className="relative inline-block mt-4 px-4 py-2 text-white font-medium hover:text-blue-200 focus:outline-none transition-all duration-300"
-                >
-                  <span className="relative z-10">{t('resources.activities.button')}</span>
-                  <span className="absolute inset-0 border-2 border-white rounded-lg opacity-0 transition-all duration-500 ease-out transform scale-x-0 origin-left group-hover:scale-x-100 group-hover:opacity-100 active:opacity-100 active:scale-x-100" />
-                </Link>
+                {encerrado ? (
+                  <div
+                    className="relative inline-block mt-4 px-4 py-2 text-white font-medium bg-white/10 text-center rounded border border-white/30 opacity-50 cursor-not-allowed"
+                  >
+                    🚫 {t('resources.activities.button')}
+                  </div>
+                ) : (
+                  <Link
+                    to="/registration"
+                    className="relative inline-block mt-4 px-4 py-2 text-white font-medium hover:text-blue-200 focus:outline-none transition-all duration-300"
+                  >
+                    <span className="relative z-10">{t('resources.activities.button')}</span>
+                    <span className="absolute inset-0 border-2 border-white rounded-lg opacity-0 transition-all duration-500 ease-out transform scale-x-0 origin-left group-hover:scale-x-100 group-hover:opacity-100 active:opacity-100 active:scale-x-100" />
+                  </Link>
+                )}
               </div>
             </div>
           </section>

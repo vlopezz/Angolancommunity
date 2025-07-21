@@ -161,6 +161,9 @@
   "exploreMore": "Explore More",
   "experienceAngola": "Experience Angola",
   "joinUsInExploring": "Join us in exploring this beautiful country and its rich cultural heritage",
+  "registrationsClosedTitle": "Registrations have closed.",
+  "registrationsClosedThanks": "Thank you to everyone who took part!",
+  "registrationsClosedNote": "Look forward to hearing from you soon.",
   "learnMore": "Learn More", 
  "vencislauMario": {
 "name": "Vencislau Mario",
@@ -224,11 +227,15 @@
 "shortDescription": "",
 "fullDescription": "Student of Finance and Banking at the University of Oil and Gas Ploieşti, with a technical background in Accounting and Finance. Skills in SQL programming, database design and database fundamentals.",
 "contact": {
-"linkedin": "#link"
+"linkedin": "https://www.linkedin.com/in/jorge-tom%C3%A9-12b90027a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
 },
 "achievements": [
-"Coming soon",
-"Coming soon"
+"Google Analytics",
+"google manage GA4 data and Learn to Read Reports.",
+"Google Use GA4 with other Tools and Data Sources.",
+"Google Dive Deeper into GA4 Data and Reports.",
+"Financial accounting level ||.",
+"Computer basics."
 ]
 },
 "desiderioNgulo": {
