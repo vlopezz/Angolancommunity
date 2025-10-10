@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import { useTranslation } from 'react-i18next';
-import { Activity, FileText, PenLine } from 'lucide-react';
+import { Activity, FileText, PenLine, Vote } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Resources: React.FC = () => {
@@ -101,14 +101,14 @@ const Resources: React.FC = () => {
         {/* Atividades */}
         {activeSection === 'atividades' && (
           <section id="atividades" className="py-20">
-            <div className="container mx-auto px-4 flex justify-center">
+            <div className="container mx-auto px-4 flex flex-wrap justify-center gap-6">
+              {/* Card Existente */}
               <div className="max-w-sm w-full bg-blue-500 rounded-lg shadow-md p-4 sm:p-6 text-white flex flex-col items-center justify-between min-h-[200px] sm:h-64 md:h-72 group relative overflow-hidden">
                 <div className="flex flex-col items-center relative z-10">
                   <PenLine size={40} className="absolute opacity-10 pointer-events-none" style={{ top: '20%', left: '50%', transform: 'translate(-50%, -50%)' }} />
                   <h2 className="text-xl sm:text-2xl font-bold text-center">{t('resources.activities.title')}</h2>
                   <p className="text-sm sm:text-base text-center mt-2">{t('resources.activities.edition')}</p>
                 </div>
-
                 {encerrado ? (
                   <div
                     className="relative inline-block mt-4 px-4 py-2 text-white font-medium bg-white/10 text-center rounded border border-white/30 opacity-50 cursor-not-allowed"
@@ -124,6 +124,23 @@ const Resources: React.FC = () => {
                     <span className="absolute inset-0 border-2 border-white rounded-lg opacity-0 transition-all duration-500 ease-out transform scale-x-0 origin-left group-hover:scale-x-100 group-hover:opacity-100 active:opacity-100 active:scale-x-100" />
                   </Link>
                 )}
+              </div>
+              {/* Novo Card para Voto */}
+              <div className="max-w-sm w-full bg-blue-500 rounded-lg shadow-md p-4 sm:p-6 text-white flex flex-col items-center justify-between min-h-[200px] sm:h-64 md:h-72 group relative overflow-hidden">
+                <div className="flex flex-col items-center relative z-10">
+                  <Vote size={40} className="absolute opacity-10 pointer-events-none" style={{ top: '20%', left: '50%', transform: 'translate(-50%, -50%)' }} />
+                  <h2 className="text-xl sm:text-2xl font-bold text-center">{t('resources.activities.votingTitle', { defaultValue: 'Participe na Votação para o novo presidente' })}</h2>
+                  <p className="text-sm sm:text-base text-center mt-2">{t('resources.activities.votingDescription', { defaultValue: 'Vote agora no seu candidato' })}</p>
+                </div>
+                <a
+                  href="https://angola-connect-vote.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative inline-block mt-4 px-4 py-2 text-white font-medium hover:text-blue-200 focus:outline-none transition-all duration-300"
+                >
+                  <span className="relative z-10">{t('resources.activities.votingButton', { defaultValue: 'Votar Agora' })}</span>
+                  <span className="absolute inset-0 border-2 border-white rounded-lg opacity-0 transition-all duration-500 ease-out transform scale-x-0 origin-left group-hover:scale-x-100 group-hover:opacity-100 active:opacity-100 active:scale-x-100" />
+                </a>
               </div>
             </div>
           </section>
